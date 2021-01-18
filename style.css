@@ -1,0 +1,50 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.wrapper {
+  height: 100%;
+}
+.header, .footer {
+  height: 10%;
+  background: silver;
+}
+.content {
+  height: 80%;
+  overflow-y: auto;
+  background: pink;
+  /*position: relative;*/
+}
+
+.navbar-dark {
+      font-size: 40px !important;
+}
+
+.row {
+	display: flex;
+}
+
+#payRow {
+
+}
+
+
+#cat { 
+	background-color: red;
+}
+
+#prod {
+	background-color: green;
+}
+
+#order {
+	background-color: blue;
+	overflow-y: scroll;
+}
+
+#pay {
+	background-color: yellow;
+/*	position: absolute;
+  	bottom: 0px;
+*/
+}
